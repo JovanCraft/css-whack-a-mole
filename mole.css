@@ -1,6 +1,23 @@
 /* Your code here */
+.wgs {
+  height: 482px;
+  position: relative;
+  width: 640px;
+}
 
+.wgs_m_h {
+  height: 356px;
+  position: absolute;
+  width: 376px;
+  left: 110px;
+}
 
+.wgs_d_p {
+  height: 220px;
+  position: absolute;
+  width: 640px;
+  bottom: 0;
+}
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 /* .sb {
