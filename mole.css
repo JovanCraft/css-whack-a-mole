@@ -1,22 +1,30 @@
 /* Your code here */
 .wgs {
-  height: 482px;
+  height: 241px;
   position: relative;
-  width: 640px;
+  width: 320px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .wgs_m_h {
-  height: 356px;
+  height: 178px;
   position: absolute;
-  width: 376px;
-  left: 110px;
+  width: 188px;
+  left: 55px;
+  transition: margin-top .25s;
 }
 
 .wgs_d_p {
-  height: 220px;
+  height: 110px;
   position: absolute;
-  width: 640px;
+  width: 320px;
   bottom: 0;
+  left: .5px;
+}
+
+.wgs_m_h_hidden {
+  margin-top: 241px;
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */

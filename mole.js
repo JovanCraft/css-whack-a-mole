@@ -59,3 +59,15 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+//TESTER
+// window.addEventListener('DOMContentLoaded', () => {
+
+//   setInterval(() => {
+//     const moleHeads = document.querySelectorAll('.wgs_m_h');
+//     for (let moleHead of moleHeads) {
+//       moleHead.classList.toggle('wgs_m_h_hidden');
+//     }
+//   }, 1000);
+
+// });
